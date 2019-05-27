@@ -1,0 +1,11 @@
+number=int(input())
+palindrome=0
+temp=number
+while(number!=0):
+  remainder=number%10
+  palindrome=palindrome*10+remainder
+  number=number//10
+if(palindrome==temp):
+  print("yes")  
+else:
+  print("no")  
