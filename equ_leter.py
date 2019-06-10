@@ -1,23 +1,22 @@
 number=int(input())
 if(number==1):
-  print("one")
+  print("One")
 elif(number==2):
-  print("two")
+  print("Two")
 elif(number==3):
-  print("three")
+  print("Three")
 elif(number==4):
-  print("four")
+  print("Four")
 elif(number==5):
-  print("five")
+  print("Five")
 elif(number==6):
-  print("six")
+  print("Six")
 elif(number==7):
-  print("seven")     
+  print("Seven")     
 elif(number==8):
-  print("eight")
+  print("Eight")
 elif(number==9):
-  print("nine")
+  print("Nine")
 elif(number==0):
-  print("zero")
-else:
-  print("invalid") 
+  print("Zero")
+
