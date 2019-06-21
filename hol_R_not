@@ -1,0 +1,11 @@
+day=input()
+if(day=="sunday" or "saturday"):
+  print("yes")
+if(day=="Sunday" or "Saturday"):
+  print("yes") 
+elif(day=="monday" or "tuesday" or "wednesday" or "thursday" or "friday"):
+  print("no")  
+elif(day==" Monday" or "Tuesday" or "Wednesday" or "Thursday" or"Friday"): 
+  print("no") 
+else:
+  print("invalid")  
