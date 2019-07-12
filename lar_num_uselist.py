@@ -5,7 +5,8 @@ sin_list.reverse()
 if(sin_list[0]==0):
    print("0")  
 else:
-  print(*sin_list)  
+  for i in sin_list:
+    print(i,end='')  
      
     
   
